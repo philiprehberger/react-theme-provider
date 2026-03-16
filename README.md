@@ -1,6 +1,6 @@
 # @philiprehberger/react-theme-provider
 
-[![CI](https://github.com/philiprehberger/react-theme-provider/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/react-theme-provider/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/react-theme-provider/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/react-theme-provider/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-theme-provider.svg)](https://www.npmjs.com/package/@philiprehberger/react-theme-provider)
 [![License](https://img.shields.io/github/license/philiprehberger/react-theme-provider)](LICENSE)
 
@@ -60,6 +60,15 @@ import { ThemeToggle } from '@philiprehberger/react-theme-provider';
 - Persists user preference to `localStorage`
 - Listens for system `prefers-color-scheme` changes when set to `system`
 - Works with Tailwind CSS `dark:` variant out of the box
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
