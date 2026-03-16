@@ -1,5 +1,9 @@
 # @philiprehberger/react-theme-provider
 
+[![CI](https://github.com/philiprehberger/react-theme-provider/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/react-theme-provider/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/react-theme-provider.svg)](https://www.npmjs.com/package/@philiprehberger/react-theme-provider)
+[![License](https://img.shields.io/github/license/philiprehberger/react-theme-provider)](LICENSE)
+
 Dark/light/system theme provider for React with localStorage persistence and system preference detection.
 
 ## Installation
