@@ -24,7 +24,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "test": "node --test src/__tests__/index.test.mjs",
+    "test": "node --test",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },

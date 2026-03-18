@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-theme-provider.svg)](https://www.npmjs.com/package/@philiprehberger/react-theme-provider)
 [![License](https://img.shields.io/github/license/philiprehberger/react-theme-provider)](LICENSE)
 
-Dark/light/system theme provider for React with localStorage persistence and system preference detection.
+Dark/light/system theme provider for React with localStorage persistence and system preference detection
 
 ## Installation
 
@@ -53,6 +53,19 @@ import { ThemeToggle } from '@philiprehberger/react-theme-provider';
 
 <ThemeToggle />
 ```
+
+## API
+
+| Export | Type | Description |
+|--------|------|-------------|
+| `ThemeProvider` | Component | Context provider with localStorage persistence and system preference detection |
+| `useTheme()` | Hook | Returns `{ theme, setTheme, resolvedTheme }` for reading/setting theme |
+| `ThemeToggle` | Component | Pre-built three-way toggle (light/dark/system) with sun/moon/system icons |
+| `Theme` | Type | `'light' \| 'dark' \| 'system'` |
+| `ResolvedTheme` | Type | `'light' \| 'dark'` (the actual applied theme) |
+| `ThemeContextType` | Type | Shape of the theme context value |
+| `ThemeProviderProps` | Type | Props for `ThemeProvider` (`children`, `storageKey?`, `defaultTheme?`) |
+| `ThemeToggleProps` | Type | Props for `ThemeToggle` (`className?`, `activeClassName?`, `inactiveClassName?`) |
 
 ## How It Works
 
