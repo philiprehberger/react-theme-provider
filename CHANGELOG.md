@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6
+
+- Fix CI and License badge URLs in README
+
 ## 0.1.5
 
 - Add Development section to README
